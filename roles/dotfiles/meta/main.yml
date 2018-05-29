@@ -7,10 +7,7 @@ galaxy_info:
   license: MIT
 
   platforms:
-  - name: GenericUNIX
-    versions:
-      - all
-      - any
+    - name: GenericUNIX
 
   galaxy_tags:
     - dotfiles
