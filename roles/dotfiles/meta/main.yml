@@ -7,7 +7,7 @@ galaxy_info:
   license: MIT
 
   platforms:
-    - name: GenericUNIX
+    - name: Fedora
 
   galaxy_tags:
     - dotfiles
