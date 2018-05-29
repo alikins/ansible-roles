@@ -14,4 +14,3 @@
     file: path={{ home }}/.{{ item | basename }} src={{ item }} state=link force=yes
     with_fileglob:
         - "{{ dotfile_repo_dest }}/dot_dir/*"
-
