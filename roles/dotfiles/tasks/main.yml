@@ -1,0 +1,17 @@
+---
+  - name: Checkout dotfile repo
+    git:
+      repo: "{{ dotfile_repo_url }}"
+      dest: "{{ dotfile_repo_dest }}"
+      update: "{{ dotfile_repo_update }}"
+
+  - name: Symlink dotfiles from home dir to repo checkout
+    file: path={{ home }}/.{{ item | basename }} src={{ item }} state=link force=yes
+    with_fileglob:
+        - "{{ dotfile_repo_dest }}/dot/*"
+
+  - name: Symlink dot dirs from home dir to repo checkout
+    file: path={{ home }}/.{{ item | basename }} src={{ item }} state=link force=yes
+    with_fileglob:
+        - "{{ dotfile_repo_dest }}/dot_dir/*"
+

@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  author: Adrian Likins
+  description: Role for installing project_repos to src_home
+  company: Red Hat
+
+  license: MIT
+
+  platforms:
+  - name: GenericUNIX
+    versions:
+      - all
+      - any
+
+  galaxy_tags:
+    - git
+    - devsetup
+
+dependencies: []

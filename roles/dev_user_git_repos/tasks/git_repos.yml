@@ -1,0 +1,9 @@
+---
+  - name: Install projects src code from git repos
+    git:
+      repo: "{{ item.git }}"
+      dest: "{{ src_home }}/{{ item.path }}"
+      update: yes
+      accept_hostkey: yes
+    with_items: "{{ project_repos }}"
+    ignore_errors: true

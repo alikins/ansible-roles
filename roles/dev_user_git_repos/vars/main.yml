@@ -1,0 +1,17 @@
+---
+project_repos:
+  - name: Checkout ansible project
+    git: git@github.com:ansible/ansible
+    path: ansible
+
+  - name: Checkout ansible galaxy project
+    git: git@github.com:ansible/galaxy
+    path: galaxy
+
+    #- name: Checkout ansible/mazer project
+    #   git: git@github.com:ansible/mazer
+    #  path: ansible-mazer
+
+  - name: Checkout ansible-bug-repro project
+    git: git@github.com:alikins/ansible-bug-repro.git
+    path: ansible-bug-repro

@@ -1,0 +1,4 @@
+dotfile_repo_name: "dotfiles-shared"
+dotfile_repo_url: "git@github.com:alikins/dotfiles-shared.git"
+dotfile_repo_dest: "{{ src_home }}/{{ dotfile_repo_name }}"
+dotfile_repo_update: no
