@@ -3,6 +3,7 @@ galaxy_info:
   author: Adrian Likins
   description: Role for installing dotfiles from a alikins.dotfiles style repo
   company: Red Hat
+  role_name: dotfiles
 
   license: MIT
 

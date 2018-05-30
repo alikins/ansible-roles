@@ -3,7 +3,7 @@ galaxy_info:
   author: Adrian Likins
   description: Role for installing project_repos to src_home
   company: Red Hat
-  role_name: alikins.dev_user_git_repos
+  role_name: dev_user_git_repos
 
   license: MIT
 
